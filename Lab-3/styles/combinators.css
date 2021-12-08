@@ -1,0 +1,25 @@
+
+/* descendant (space) -- to all the child */
+.article-1 p {
+    color: brown;
+}
+
+/* child selector (>) -- just to immidiate child */
+.article-1 > p {
+
+    font-size: 20px;
+}
+
+/* adjacent sibling selector (+) -- just the next adjacent which follows it not the previous one*/
+.article-1 > h2 + p {
+
+    font-size: 40px ;
+    color: darkorange;
+
+}
+
+/* General Sibling selector (~) */
+.article-1 > h2 ~ div {
+    font-size: 60px;
+    border: 1px solid blue;
+}

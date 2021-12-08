@@ -1,0 +1,29 @@
+/* This CSS file contains CSS for the Header section of the web-page */
+
+
+.logo_image {
+    display: inline;
+    margin-right: 150px;
+}
+
+.header {
+    margin: 20px;
+    display: inline;
+}
+
+.savedsearch {
+    border-style: dashed;
+    border-radius: 100px;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 40px;
+    margin-left: 300px;
+}
+
+
+.button_login {
+    background-color: #b6e0ee; 
+    width: 120px;
+}
+

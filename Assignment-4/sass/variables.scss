@@ -1,0 +1,32 @@
+
+@use "sass:math";
+/* sass variable */
+$background-color: rgba(53, 107, 163, 1);
+
+/* sass nesting */
+nav {
+
+li {
+    background-color: azure;
+}
+}
+
+/* about - image radio button */
+
+%image_radiobutton_inheritance {
+    width:300px;
+    height: 250px;
+   
+}
+
+.image_radiobuttons {
+    @extend image_radiobutton_inheritance !optional ;
+
+}
+
+
+// operator
+.image_buttons {
+    width: math.div(1200px, 400px) ;
+    height: 250px;   
+}

@@ -1,0 +1,104 @@
+html{
+    height: 100%;
+    background-image: linear-gradient(grey,cyan);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: #0f222d;
+    background-size: auto;
+  }
+  
+  .main{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  h1{
+    text-align: center;
+    color: #fff;
+  }
+  form{
+    background-color: #fff;
+    padding: 15px;
+  }
+
+ 
+  .tasksBoard{
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+  
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    border-bottom: 1px solid #53BDFF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 1.3em;
+    color: #2f4f4f;
+  }
+  a{
+    float: right;
+    text-align: right;
+    color: #ff6161;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  .delete{
+    background-color: #ff6161;
+    padding: 0px 3px 0px 3px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .showIcon
+  {
+    background-color: #ff6161;
+    padding: 0px 2px 0px 2px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    height:40px;
+    width:60px;
+    border:none;
+    border-radius:10px ;
+    }
+ 
+  /* General Styles */
+* {
+  box-sizing: border-box;
+}
+
+
+
+.modal-control {
+  padding: 1rem;
+ background-color:aquamarine;
+  text-align: center;
+  border-radius: 20px;
+}
+
+button {
+  font: inherit;
+  background: transparent;
+  border: 2px solid #521751;
+  padding: 0.5rem 1rem;
+  color: #521751;
+  cursor: pointer;
+  font-weight: bold;
+}
+.modal-input {
+  margin: 0.5rem 0;
+}
+
+.modal-actions {
+  text-align: right;
+}
+.open {
+  display: block;
+}

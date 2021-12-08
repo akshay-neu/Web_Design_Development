@@ -1,0 +1,55 @@
+/* position.css */
+
+body {
+    padding: 25px;
+    --x-background-color:  rgba(146, 103, 50, 0.5); /* 0.5 makes it 50% transparent */
+}
+
+.container {
+    width: 500px;
+    height: 10000px;
+    background-color: var(--x-background-color);
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: var(--x-background-color);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.static {
+    position: static;
+    top: 20px;
+    left: 20px;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.fixed {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.sticky {
+    position: sticky;
+    top: 100px;
+    left: 100px;
+}

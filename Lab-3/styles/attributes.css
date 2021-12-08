@@ -1,0 +1,40 @@
+
+
+/* [attr] */
+
+li[name] {
+
+    font-size: 20px;
+}
+
+/*  [attr=val]  */
+
+li[name="fruit-apple"] {
+    color: orange;
+}
+
+/* [attr^=val -- value of name attribute starts with the text*/
+li[name^="fruit"] {
+
+    margin: 10px;
+    border: 1px solid blue;
+}
+
+/* [attr$=] -- end of the word*/
+li[name$="grapes"] {
+    color: green;
+}
+
+/* [attr~=] -- space separated value */
+
+li[name~="apple"]{
+
+    color: blueviolet;
+}
+
+
+/* [attr*=] -- contains */
+li[name*="orange"] {
+    color:cyan;
+}
+

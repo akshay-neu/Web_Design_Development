@@ -1,0 +1,46 @@
+/* CSS Comments */
+
+/* id selector */
+#title {
+    font-size: 25px;
+    /* color: brown;  */
+}
+
+/* class selector */
+.title {
+    color: green;
+}
+
+/* tag selector */
+p {
+    color: brown;    
+}
+
+/* wildcard */
+* {
+    padding-left: 50px;
+}
+
+
+/* pseudo class */
+.title:hover {
+    cursor:auto;
+    background-color: darkmagenta;
+}
+
+
+/* pseudo element */
+.title::first-letter {
+    color:darkturquoise;
+
+}
+
+
+.container {
+
+
+    color: green;
+width: 40px;
+height: 40px;
+
+}

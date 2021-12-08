@@ -1,0 +1,218 @@
+/* This CSS file contains CSS for the Apartment Plans section of the web-page */
+textblue {
+    color:blue;
+}
+textgrey {
+    color: grey;
+    margin-top:10px;
+}
+.apartmentplan_section {
+    background-color: rgba(245, 247, 250, 1);
+    padding: 40px;
+
+}
+.apartment_button {
+    display: inline;
+    text-align: center;
+    align-self: center;
+    background:none; 
+    border:none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: inherit;
+}
+.apartment_button:hover{
+ 
+    color: rgba(74, 139, 252, 1);
+}
+
+
+.itemcenter {
+text-align: center;
+}
+
+.deluxePortion {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+    background-color: rgba(53, 107, 163, 1);
+    color: white;
+
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 10px;
+    height: 380px;
+}
+
+.house_map {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-left: 30px;
+   margin-right: 30px;
+
+}
+.house_map_image {
+    width: 90%;
+    height: 80%;
+
+}
+
+
+.delux_portion_text {
+    width:"20";
+    height:"20";
+}
+
+.featured_address {
+    width:"50px";
+    height:"50px";
+}
+
+.apartment_section_2 {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color:white;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+
+.featured_section {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+
+    
+    height: 500px;
+    width: 1500px;
+    
+    
+}
+
+.featured_section_1 {
+    grid-column-start: 1 ;
+    grid-column-end: 2 ;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.featured_section_2 {
+    grid-column-start: 2 ;
+    grid-column-end: 3 ;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+.featured_section_3 {
+    grid-column-start: 3 ;
+    grid-column-end: 4 ;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(211, 208, 208);
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .circle:hover {
+       
+    background-color: rgba(74, 139, 252, 1);
+      
+  }
+  
+
+.featured_section_1_1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3 1fr);
+ 
+}
+.featured_section_1_1_image {
+    grid-row-start:1 ;
+    grid-row-end: 3;
+
+}
+
+.featured_section_1_1_text {
+    grid-row-start:3;
+    grid-row-end: 4;
+    padding-top: 10px;
+    
+}
+.featured_image {
+    width: 450px;
+    height: 250px;
+}
+
+.featured_roomcount {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgba(245, 247, 250, 1);
+
+    margin-top:20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:30px;
+    padding-bottom: 10px;
+}
+.bed_count {
+    grid-column: 1/2;
+}
+.bathtub_count {
+    grid-column: 2/3;
+}
+.sqfeetcount {
+    grid-column: 3/4;
+}
+.featured_name_text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

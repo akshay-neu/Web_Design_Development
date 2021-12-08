@@ -1,0 +1,46 @@
+/* This CSS file contains CSS for the About section of the web-page */
+
+itemscentre {
+text-align: center;
+
+}
+
+.subheading {
+    color: blue;
+}
+
+
+.third_subheading { 
+    color:rgb(90, 90, 117);
+    text-align: center;
+}
+
+
+
+.image_radiobutton {
+    width:20%;
+   
+}
+
+
+.continue_button {
+    text-align: center;
+    align-self: center;
+
+}
+
+.continue_buttonCSS {
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 15px 80px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      
+}

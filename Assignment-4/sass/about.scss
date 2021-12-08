@@ -1,0 +1,117 @@
+/* This CSS file contains CSS for the About section of the web-page */
+
+.itemscentre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+    .continuebutton_section {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .dream_section {
+        display: grid;
+        grid-template-columns:  repeat(4, 1fr) ;
+        grid-gap: 40px;
+        width: 100%;
+        /* height: 250px; */
+    }
+    .dream_section_1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color: white;
+        box-shadow: 5px 10px 8px #888888;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 20px;
+    
+    }
+    .dream_section_2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        background-color: white;
+        box-shadow: 5px 10px 8px #888888;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+    .dream_section_3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        background-color: white;
+        box-shadow: 5px 10px 8px #888888;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+    .dream_section_4 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        background-color: white;
+        box-shadow: 5px 10px 8px #888888;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+    .subheading {
+        color: rgba(53, 107, 163, 1);
+    }
+    
+    
+    .third_subheading { 
+        color:rgb(90, 90, 117);
+        text-align: center;
+    }
+    
+    
+    
+    .image_radiobutton {
+        width:300px;
+        height: 250px;
+       
+    }
+    
+    
+    .continue_button {
+        text-align: center;
+        align-self: center;
+    
+    }
+    
+    .continue_buttonCSS {
+            background-color: rgba(53, 107, 163, 1);
+            border: none;
+            color: white;
+            padding: 15px 80px;
+            text-align: center;
+            text-decoration: none;
+            
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            width: 450px;
+            height: 60px;
+          
+    }
+    .caption_dreamimage {
+    
+        margin-top: 10px;
+        text-align: center;
+        color:  grey;
+        font-size: large;
+    }
+    
+    

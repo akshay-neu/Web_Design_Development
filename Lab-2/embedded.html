@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Embedded Elements
+        </title>
+        <style>
+            body{
+                padding: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Embedded Elements</h1>
+        <figure>
+            <figcaption> Media Query Image</figcaption>
+            <picture>
+                <source srcset="dog-2.jpg" media="(min-width:1000px)" >  
+
+                <source srcset="dog-3.jpg" media="(min-width: 800 px)">
+                <img src="dog-4.jpg" alt="Dog Image">
+            </picture> 
+        </figure>
+
+        <figure>
+            <figcaption>Audio</figcaption>
+            <audio controls
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+            Browser doesnt support this feature.
+            </audio>
+        </figure>
+        </body>
+    </html>
+                    

@@ -1,0 +1,5 @@
+@mixin border-mixin($value) {
+    border: $value solid #c02424 ;
+    box-shadow: #834a4a;
+    
+}

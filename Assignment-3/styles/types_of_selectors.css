@@ -1,0 +1,53 @@
+/* Types Of Selectors */
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* simple selectors */
+/* tag selector */
+h1 {
+    text-align: center;
+}
+
+
+/* class selector */
+.heading {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* Attribute Selectors */
+
+/* [attr] */
+
+li[name] {
+    font-size: 20px;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* Combinators */
+
+/* child selector (>) -- just to immidiate child */
+.footersection > p  {
+    font-size: 10px ;
+    color: darkorange;
+
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* pseudo class */
+h5:hover {
+    cursor:auto;
+    background-color: darkmagenta;
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+/* pseudo element */
+h5::first-letter {
+    color:darkturquoise;
+
+}
+/* --------------------------------------------------------------------------------------------- */

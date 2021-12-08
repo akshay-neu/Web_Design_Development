@@ -1,0 +1,233 @@
+/* Common Style for overall Page*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #241d1d;
+    color: #fff;
+    background-color: white;
+    background-position-x: left;
+    background-repeat: round;
+  }
+  .wrapper {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  /* Header Div with Calendar Background*/
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-size: 50px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: lightblue;
+    border: 0.6px solid darkblue;
+    background-position-x: 20px;
+  }
+
+  .addTask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    color: #272727;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .addTask input {
+    border: 0;
+    border-bottom: 1px solid #272727;
+    outline: auto;text-align: center
+  }
+
+  .increaseWidth{
+    border: 0;
+    border-bottom: 1px solid #272727;
+    outline: auto;text-align: center;
+    width: 23%;
+  }
+  .addTaskBtn {
+    border-radius: 2px;
+    background: lightblue;
+    cursor: pointer;
+    width: 11%;
+  }
+  .addTaskBtnTop{
+    border-radius: 5px;
+    background: lightblue;
+    cursor: pointer;
+  }
+  .taskListHeader {
+    position: relative;
+    width: 100%;
+  }
+  .taskListHeader h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+    background-color: lightblue;
+    border: 1px solid black;
+  }
+  .removeCompleteBtn {
+    position: absolute;
+    right: 5vw;
+    top: 16px;
+    border: 0;
+    background: 0;
+    color: #fff;
+    font-size: 0.5em;
+    cursor: pointer;
+    transition: color 150ms ease-in-out;
+    outline: none;
+  }
+  .removeCompleteBtn:hover {
+    color: #272727;
+  }
+  .removeCompleteBtn:active {
+    color: red;
+  }
+  .taskListWrapper {
+    background: #fff;
+    color: #272727;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+  }
+  .taskList {
+    padding: 15px 25px 25px 25px;
+    width: 50%; 
+    overflow-y: scroll;
+    height: 500px;
+  }
+  .taskList li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #7474743b;
+
+  }
+  // .taskList li:nth-child(odd) {
+  //   background-color: #747474;
+
+  // }
+  /* To Ease Out On Hover of List*/
+  .taskList li:hover {
+    transform: scale(1.1);
+  }
+
+  .taskList input {
+    position: absolute;
+    opacity: 0;
+  }
+  .taskList label {
+    position: relative;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+  }
+  .taskList label:hover {
+    color: #747474;
+  }
+  .checkMark {
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    z-index: 1;
+  }
+
+
+  .testCssAutocomplete {
+    color: blue;
+  }
+
+
+.checked{
+  color: red;
+    text-decoration:fade-in($color: #000000, $amount: 0) ;
+}
+
+.contentDisplay{
+    display: block;
+}
+
+.customLabel{
+  margin-left: -381px;
+  position: absolute;
+}
+
+li span{
+  float: right;
+}
+
+.leftMargin{
+ margin-right: 20px;
+}
+
+.input3{
+  margin-right: -53px;
+}
+
+.input2{
+  margin-right: -15px;
+}
+
+.input1{
+  margin-left: 60px;
+}
+
+.space{
+  margin-left: 10px;
+  color: #272727;
+  font-weight: bolder;
+}
+
+@keyframes strike{
+  0%   { width : 0; }
+  100% { width: 100% }
+}
+.strike {
+  position: relative;
+  color: red;
+}
+
+.strike::after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  border-radius: 20px;
+  height: 1px;
+  background: red;
+  animation-name: strike;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+}
+
+.textArea{
+  max-width: 234px;
+  max-height: 166px;
+  min-width: 234px;
+  min-height: 100px;
+}
+
+.two{
+  margin-left: 5px;
+}
+
+

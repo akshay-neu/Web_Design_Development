@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<head>
+    <title>
+        Housing Website
+    </title>
+    <style>
+        body {
+            padding: 25px;
+            width: auto;
+        }
+
+        .heading {
+            display: inline-block;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="heading">
+
+        <img src="assets/Group 9739.png" alt="Image1" class="heading">
+
+        <h4 class="heading" title="click to go to Home section"><a href="index.html">Home</a></h4>
+        <h4 class="heading" title="click to go to About section"><a href="#about">About</a></h4>
+        <h4 class="heading" title="click to go to Featured section"><a href="#featured">Featured</a></h4>
+        <h4 class="heading"><a href="#contact">Contact</a></h4>
+
+        <button type="button" style="background-color: #b6e0ee; width: 120px;"><a href="#home">Login</a></button>
+
+    </div>
+
+
+    <div>
+        <h1 id="home" style="color: blue;">Let's find</h1>
+        <h1 style="color: rgb(62, 73, 173);"> yours Dream...</h1>
+        <h5 style="color: black;">Building award winning properties accross <br> London UK and the All World</h5>
+
+    </div>
+    <div>
+
+
+        <button type="button" title="Click to Buy a new Apartment" style="background-color: #f8f9fa; ">Buy</button>
+        <button type="button" title="Click to put your Apartment on Sell"
+            style="background-color: #f8f9fa; ">Sell</button>
+        <button type="button" title="Click to Rent your Apartment" style="background-color: #f8f9fa; ">Rent</button>
+    </div>
+    <div>
+
+        <figure>
+            <picture>
+                <source srcset="assets/pierre-chatel-innocenti-gxyeia7Syuk-unsplash.png" media="(min-width: 200 px)">
+                <img src="assets/pierre-chatel-innocenti-gxyeia7Syuk-unsplash.png" alt="Image1" width="70%"
+                    height="800">
+            </picture>
+        </figure>
+
+
+
+    </div>
+
+    <div>
+
+        <form action="" method="GET">
+            <fieldset>
+                <label>Enter City:</label>
+                <input type="text" name="city" placeholder="Enter City" required>
+                <label>Apartment Type:</label>
+                <input list="atype" name="aptype" placeholder="Deluxe Portion" required>
+                <datalist id="atype">
+                    <option value="1 BHK">
+                    <option value="2 BHK">
+                    <option value="3 BHK">
+                    <option value="4 BHK">
+                    <option value="5 BHK">
+                </datalist>
+                <label>Price Range:</label>
+                <input list="pricerange" name="range" placeholder="Min-price : Max-price" required>
+                <datalist id="pricerange">
+                    <option value="$10000 : $20000">
+                    <option value="$20000 : $30000">
+                    <option value="$30000 : $40000">
+                    <option value="$40000 : $50000">
+                    <option value="$50000 : $60000">
+                </datalist>
+                <button type="submit" name="submit">Search</button>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <!------------------------------------------------Dream Apartment Section start--------------------------------------------------------------->
+
+    <hr>
+
+    <h1 id="about"> HI, What do you want to your </h1>
+    <h1 style=" color:blue;"> Dream Apartment</h1>
+
+
+
+    <h4 style=" color:rgb(90, 90, 117);">Select a type of apartment type below how it begins</h4>
+
+
+    <div>
+        <form method="get" id="form1">
+
+            <label>
+                <input type="radio" name="test" value="small" checked>
+                <img src="assets\delux2.png" alt="House choice" style="width:20%;">
+            </label>
+
+            <label>
+                <input type="radio" name="test" value="small">
+                <img src="assets\THE-SELECT-TEN----Bedroom-Apartment---Wintergarden-(Floor-33-34).png"
+                    alt="House choice" style="width:20%;">
+            </label>
+            <label>
+                <input type="radio" name="test" value="small">
+                <img src="assets\delux2.png" alt="House choice" style="width:20%;">
+            </label>
+
+            <label>
+                <input type="radio" name="test" value="small">
+                <img src="assets\THE-SELECT-TEN----Bedroom-Apartment---Wintergarden-(Floor-33-34).png"
+                    alt="House choice" style="width:20%;">
+            </label>
+
+        </form>
+        <div>
+            <button type="submit" form="form1" value="Submit">Continue</button>
+        </div>
+    </div>
+    <!------------------------------------------------Dream Apartment Section end--------------------------------------------------------------->
+
+    <!----------------------------------------------- Featured Section start ---------------------------------------------------------------------------->
+    <div>
+        <div>
+            <h1 id="featured" style=color:black>Featured Apartments</h1>
+            <h4 style=" color:rgb(90, 90, 117);">The most frequently searched and most popular apartment of the
+                application will be in the list</h4>
+            <div class="heading">
+                <picture>
+                    <img src="assets/Image 4.png" width="200" height="200" class="heading">
+                    <figcaption>KnightBridge</figcaption>
+                    <figcaption>$2500</figcaption>
+                    <figcaption><b>Apartment London</b></figcaption>
+                    <figcaption>Beautiful Huge Family House in Heart Of <br>Wednesday Newly Renowated with New Furniture
+                    </figcaption>
+                    <div>
+                        <picture>
+                            2 <img src="assets/bed.png" width="20" height="20"> Bedroom
+                        </picture>
+                    </div>
+                    <div>
+                        <picture>
+                            2 <img src="assets/bathtub.png" width="20" height="20"> Bathroom
+                        </picture>
+                    </div>
+                    <div>
+                        <p>1176 sqft</p>
+                    </div>
+                </picture>
+            </div>
+            <div class="heading">
+                <picture>
+                    <img src="assets/Mask Group -1.png" width="200" height="200" class="heading">
+                    <figcaption>Belmont Gardens, Chicago</figcaption>
+                    <figcaption>$30000</figcaption>
+                    <figcaption><b>Studio Apartment</b></figcaption>
+                    <figcaption>Beautiful Huge Family House in Heart Of <br> Wednesday Newly Renowated with New
+                        Furniture
+                    </figcaption>
+                    <div>
+                        <picture>
+                            3 <img src="assets/bed.png" width="20" height="20"> Bedroom
+                        </picture>
+                    </div>
+                    <div>
+                        <picture>
+                            2 <img src="assets/bathtub.png" width="20" height="20"> Bathroom
+                        </picture>
+                    </div>
+                    <div>
+                        <p>2500 sqft</p>
+                    </div>
+                </picture>
+            </div>
+            <div class="heading">
+                <picture>
+                    <img src="assets/Mask Group -2.png" width="200" height="200">
+                    <figcaption>TimberYard, Birmingham City Centre, B5</figcaption>
+                    <figcaption>$379,000</figcaption>
+                    <figcaption><b>Galliard Homes Apartment</b></figcaption>
+                    <figcaption>The Fabulous Two bedroom Duplex Apartment <br>Will be close to some of the best Local
+                        Haunts
+                        And Venues of the City to Offer</figcaption>
+                    <div>
+                        <picture>
+                            3 <img src="assets/bed.png" width="20" height="20"> Bedroom
+                        </picture>
+                    </div>
+                    <div>
+                        <picture>
+                            3 <img src="assets/bathtub.png" width="20" height="20"> Bathroom
+                        </picture>
+                    </div>
+                    <div>
+                        <p>1041 sqft</p>
+                    </div>
+                </picture>
+            </div>
+        </div>
+
+
+
+
+        <!------------------------------------------------ Featured Apartment Section End--------------------------------------------------------------->
+
+        <!----------------------------------------------- Apartment Plan Section start -------------------------------------------------------------------------------------- -->
+        <div>
+            <h1 style=color:blueviolet>Apartments Plan</h1>
+            <button type="button" style="background:none; border:none;" class="heading"> The Studio </button>
+            <button type="button" style="background:none; border:none;" class="heading"
+                onclick="getElementById('deluxeclick')">
+                Deluxe Portion </button>
+            <button type="button" style="background:none; border:none;" class="heading"> Penthouse </button>
+            <button type="button" style="background:none; border:none;" class="heading"> Top Garden </button>
+            <button type="button" style="background:none; border:none;" class="heading"> Double Height </button>
+            <div>
+                <p id="deluxeclick"></p>
+                <div>
+                    <h3 id="deluxePortion">Deluxe Portion</h3>
+                    <p>Boosting chic interiors, three private baclonies and a remarkable terrace, this two bedroom
+                        apratment will be the epitome complete luxury. Not only will residents benifts form a superb
+                        location in the heart of Shordeich, but they will enjoy 24-hour bespoge concierge</p>
+                    <p>Total area -------------------------------- 2800 sq.ft </p>
+                    <p>Bedroom -------------------------------- 2800 sq.ft </p>
+                    <p>Bathroom -------------------------------- 2800 sq.ft </p>
+                    <p>Smoking/pets -------------------------------- 2800 sq.ft </p>
+                    <p>Lounge -------------------------------- 2800 sq.ft </p>
+                </div>
+                <div>
+                    <picture>
+                        <img src="assets/Image 6.png" width="500" height="500">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------- Apartment Plan Section End-------------------------------------------------------->
+    <!-------------------------------------------- Contact section start ---------------------------------------------------------------->
+
+
+    <div>
+
+        <div class="heading">
+            <h1 id="contact" style="color: rgb(6, 1, 10);">Buy <br> Dream Apartment</h1>
+            <h1 style="color: rgb(10, 3, 17);" class="heading">In </h1>
+            <h1 style="color: rgb(150, 79, 221);" class="heading">Prime Location</h1> <br>
+
+
+            <button type="submit" style="background: darkblue; color: white; height: 50px; width: 150px;">See All
+                Apartment</button>
+
+        </div>
+        <picture>
+            <img src="assets/delux2.png" width="200" height="200" class="heading">
+        </picture>
+        <picture>
+            <img src="assets/THE-SELECT-TEN----Bedroom-Apartment---Wintergarden-(Floor-33-34).png" width="500"
+                height="500" class="heading">
+        </picture>
+        <br>
+
+
+
+        <footer>
+            <div>
+                <div class="heading">
+                    <figure>
+                        <img src="assets/Group 9739.png" width="100" height="30">
+                    </figure>
+                    <p>The most beautiful exculsive <br> properties and luxury apartments</p>
+                    <picture>
+                        <img src="assets/Group 9740.png" width="100" height="30">
+                    </picture>
+                    <picture>
+                        <img src="assets/Group 9741.png" width="100" height="30">
+                    </picture>
+                    <picture>
+                        <img src="assets/Group 9742.png" width="100" height="30">
+                    </picture>
+                    <picture>
+                        <img src="assets/Group 9743.png" width="100" height="30">
+                    </picture>
+
+                </div>
+                <div class="heading">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Parterns</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="heading">
+                    <h4>Help?</h4>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Terms and Condition</a></li>
+                        <li><a href="">Policy</a></li>
+                        <li><a href="">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--------------------------------------- Contact section ends here ------------------------------------------------------------>
+
+
+</body>
+
+</html>

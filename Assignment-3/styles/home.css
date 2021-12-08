@@ -1,0 +1,32 @@
+/* This CSS file contains CSS for the Home section of the web-page */
+
+.homepage_image {
+/* 
+    float: right;  */
+     /* width: 80%;  */
+    /* height: 100%;
+    position: relative; */ 
+    
+
+}
+
+
+.button_transparent {
+    background-color: #f8f9fa;
+}
+
+.homepage_block {
+
+    padding: 20px;
+    background-color: white;
+    margin-top: 10px;
+    /* position: "absolute"; */
+    /* float: left; */
+
+}
+
+.homepage_text {
+
+     position: absolute;
+}
+

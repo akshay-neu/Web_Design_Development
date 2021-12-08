@@ -1,0 +1,13 @@
+
+
+@for $padding from 1 to 5 {
+    .padding-#{$padding} {
+        padding: $padding * 10px;
+    }
+
+    .marging-#{$padding} {
+        margin: $padding * 2px;
+    }
+}
+
+

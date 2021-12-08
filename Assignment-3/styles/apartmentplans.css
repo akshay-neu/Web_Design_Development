@@ -1,0 +1,47 @@
+/* This CSS file contains CSS for the Apartment Plans section of the web-page */
+
+
+.apartment_button {
+    display: inline;
+    text-align: center;
+    align-self: center;
+    background:none; 
+    border:none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: inherit;
+}
+
+
+.itemcenter {
+text-align: center;
+}
+
+.deluxePortion {
+    background-color: rgb(54, 54, 133);
+    color: white;
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.house_map {
+    
+    display: inline-block;
+    margin-left: 100px;
+
+}
+
+
+.delux_portion_text {
+    width:"20";
+    height:"20";
+}
+
+.featured_address {
+    width:"200";
+    height:"200";
+}

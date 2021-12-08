@@ -1,0 +1,10 @@
+/* This file is used for CSS attributes */
+
+@import 'types_of_selectors.css';
+
+@import 'header.css';
+@import 'home.css';
+@import 'about.css';
+@import 'apartmentplans.css';
+@import 'contact.css';
+

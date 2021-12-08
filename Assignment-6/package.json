@@ -1,0 +1,31 @@
+{
+  "name": "assignment-6",
+  "version": "1.0.0",
+  "description": "css and scss",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/main.scss  --output dist",
+    "node-sass": "node-sass --output-style compressed -o dist scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "node-sass": "^4.14.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall2021/assignment-6-akshay-neu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall2021/assignment-6-akshay-neu/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall2021/assignment-6-akshay-neu#readme",
+  "keywords": []
+}

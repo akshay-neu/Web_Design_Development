@@ -1,0 +1,60 @@
+
+@import 'border';
+
+body {
+    padding: 25px;
+}
+
+.container {
+    width: 500px;
+    height: 10000px;
+    background-color: $background-color;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+
+
+    .box {
+        width: 200px;
+        height: 200px;
+        background-color: $background-color;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 20px;
+        @include border-mixin(2px);
+    }
+}
+
+
+
+
+.static {
+    @extend .box;
+    position: static;
+    top: 20px;
+    left: 20px;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.fixed {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.sticky {
+    position: sticky;
+    top: 100px;
+    left: 100px;
+}

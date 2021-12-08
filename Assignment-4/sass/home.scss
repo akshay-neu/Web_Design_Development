@@ -1,0 +1,266 @@
+/* This CSS file contains CSS for the Home section of the web-page */
+text_darkblue {
+    color: rgba(31, 57, 90, 1);
+}
+
+
+.home_section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    max-height: 700px;
+
+}
+
+.homepage_image {
+    width: 100%; 
+    height: 100%;
+ 
+    z-index: 1;
+}
+
+.homepage_image_section {
+    grid-column-start: 4;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 13;
+}
+
+
+.button_transparent {
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    margin-right: 10px;
+  
+    height: 40px;
+    width: 90px;
+    border-radius: 100px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+  
+
+
+}
+
+.button_transparent:hover {
+    background-color: rgba(74, 139, 252, 1);
+}
+
+.homepage_block-1 {
+  
+    background-color:white;
+  
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    z-index: 2;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 5px 10px 8px #888888;
+
+    padding-left: 30px;
+    
+  
+}
+.homepage_block-2 {
+    grid-column-start: 1;
+    grid-column-end: 4;    
+  
+    grid-row-start: 9;
+    grid-row-end: 10;
+
+
+}
+
+.homepage_block-3 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+   
+    background-color:white;
+    border:rgb(241, 235, 235);
+    
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    
+   
+
+    grid-row-start: 10;
+    grid-row-end: 12;
+    z-index: 2;
+
+}
+
+.block_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
+    grid-template-rows:  60px 60px;
+    
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.block_3_1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    height: 100%;
+    color:grey;
+    padding-top: 20px;
+
+}
+
+.block_3_11 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+ 
+    color:rgba(53, 107, 163, 1);
+    font-weight: bold;
+    font-size:20px;
+
+}
+
+
+.block_3_2 {
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    color:grey;
+
+    padding-top: 20px;
+
+}
+.block_3_22 {
+
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color:rgba(53, 107, 163, 1);
+    font-weight: bold;
+    font-size:20px;
+
+
+}
+
+.textboxborderhidden
+{border-style: hidden;
+
+}
+
+.textboxborderhidden::placeholder
+{
+    color:   rgba(53, 107, 163, 1);
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+.block_3_3 {
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color:grey;
+    padding-top: 20px;
+
+}
+.block_3_33 {
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color:rgba(53, 107, 163, 1);
+    font-size:20px;
+    font-weight: bold;
+}
+.block_3_4 {
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color:rgba(53, 107, 163, 1);
+    font-weight: bold;
+   
+    padding-top: 50px;
+    padding-left: 80px;
+
+}
+
+.block_3_5 {
+    grid-column-start: 5;
+    grid-column-end: 6 ;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+
+}
+
+
+let_find {
+    color: rgba(74, 139, 252, 1);
+    font-size: 50px;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 40px;
+    padding-top: 40px;
+    
+
+}
+
+
+your_dream {
+    color: rgba(53, 107, 163, 1);
+    font-size: 50px;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.build_award {
+    color: black;
+  
+    font-weight: bold;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+
+}
+
+
+.button_search {
+    
+    background-color: rgba(74, 139, 252, 1);
+    cursor: pointer;
+    color:white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 30px;
+    
+
+}
+
+/* 
+.homepage_text {
+ position: absolute;
+    
+} */
+

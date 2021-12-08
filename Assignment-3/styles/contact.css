@@ -1,0 +1,52 @@
+/* This CSS file contains CSS for the Contact section of the web-page */
+
+
+.prime_location {
+    color: rgb(150, 79, 221);
+}
+
+
+.button_seeall {
+    background: darkblue; 
+    color: white; 
+    height: 50px; 
+    width: 150px;
+}
+
+.contact_image {
+    width: 200px;
+    height: 200px;
+}
+
+
+.contactbig_image {
+    width: 500px;
+    height: 500px;
+}
+
+.socialsite_image {
+    width: 50px;
+    height: 50px;
+}
+
+.contactpagecss {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.footercss {
+    background-color: darkblue;
+    color: white;
+}
+
+.footersection{
+    display: inline-block;
+    margin-left:100px;
+    margin-right: 40px;
+}
+
+.copyrightsection {
+    background-color: blue; 
+    color: white; 
+    text-align: center;
+}

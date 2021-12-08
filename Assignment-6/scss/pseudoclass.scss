@@ -1,0 +1,34 @@
+button.btn-confirm:hover,
+button.btn-confirm:active {
+  color: white;
+  background: green;
+}
+button.btn-cancel:hover,
+button.btn-cancel:active {
+  color: white;
+  background: red;
+}
+.modal-input textarea:focus {
+    outline: none;
+    background: #ffdbfe;
+    border-color: #521751;
+  }
+  
+
+button:hover,
+button:active {
+  border-color: #fa923f;
+  color: #fa923f;
+}
+@media (max-width: 500px) {
+    .main{
+      margin: auto;
+      width: 100%;
+    }
+    input[type="text"]{
+      width: 80%;
+    }
+    button{
+      width: 10%;
+    }
+  }
